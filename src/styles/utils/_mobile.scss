@@ -1,0 +1,35 @@
+@media (max-width: 43.75em) { // 700px 
+    body {font-size: 1.4rem;}
+    .hide-sm {
+        display: none;
+    }
+
+    .grid {
+        &-2, &-3, &-4 {
+            grid-template-columns:  1fr 1fr;
+        }
+    }
+
+    .large {
+        font-size: 2rem;
+        &-xtra {font-size: 3rem;}
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    /* Mobile Navbar */
+    .navbar {
+        display: block;
+        text-align: center;
+
+        ul {
+            padding: 0.5rem 0;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+    .avatar_img {width: 6rem;}
+}

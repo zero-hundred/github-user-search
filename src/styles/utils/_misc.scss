@@ -1,0 +1,16 @@
+/* Cards */
+.card {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin: 1.2rem 0;
+    a {
+        transition: all 0.15s ease-in;
+        color: $light-color;
+        &:hover {color: $secondary-color;}
+    }
+}
+.avatar_img {width: 8rem;}
+
+.all-center {
+    @include flexAllCenter;
+}

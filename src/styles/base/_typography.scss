@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;600&display=swap');
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Exo', sans-serif;
+    color: $light-color;
+}
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.text {
+    &-primary {color: $primary-color}
+
+    &-dark {color: $dark-color}
+
+    &-light {color: $light-color}
+
+    &-error {color: $error-color}
+
+    &-success {color: $success-color}
+
+    /* Text Aligns */
+
+    &-center {text-align: center;}
+
+    &-left {text-align: left;}
+
+    &-right {text-align: right;}
+}

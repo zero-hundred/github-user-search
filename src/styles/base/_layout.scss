@@ -1,0 +1,86 @@
+img {width: 100%;}
+.App {
+    background-color: #070707;
+    min-height: 100vh;
+}
+.container {
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    padding-bottom: 3rem;
+}
+/* List */
+.list {
+    margin: 0.5rem 0
+
+    &li {
+        padding-bottom: 0.3rem;
+    }
+}
+
+/* Padding */
+.pad {
+    padding: 0.5rem;
+
+    &-1 {padding: 1rem;}
+
+    &-2 {padding: 3rem;}
+
+    &-3 {padding: 3rem;}
+}
+
+.pad_y {
+    padding: 0.5rem 0;
+
+    &-1 {padding: 1rem 0;}
+
+    &-2 {padding: 3rem 0;}
+
+    &-3 {padding: 3rem 0;}
+}
+
+/* Margins */
+.mar {
+    margin: 0.5rem;
+
+    &-1 {margin: 1rem;}
+
+    &-2 {margin: 3rem;}
+
+    &-3 {margin: 3rem;}
+}
+
+.mar_y {
+    margin: 0.5rem 0;
+
+    &-1 {margin: 1rem 0;}
+
+    &-2 {margin: 3rem 0;}
+
+    &-3 {margin: 3rem 0;}
+
+    &-auto {margin: auto 0;}
+}
+
+/* Grid */
+.grid {
+
+    &-2 {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-gap: 1.2rem;
+    }
+
+    &-3 {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-gap: 1.2rem;
+    }
+
+    &-4 {
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-gap: 1.2rem;
+    }
+}
